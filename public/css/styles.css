@@ -1,0 +1,278 @@
+/* General */
+* {
+  font-family: Montserrat;
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+header {
+  background-color: #FFF;
+  border-bottom: 1px solid #CCC;
+}
+
+.row {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: #37a741;
+  border: 2px solid #4c9252;
+}
+
+.btn-primary:hover {
+  background-color: #3b7740;
+  border-color: #3b7740;
+  transition-duration:0.4s
+}
+
+.msg {
+  font-size: 14pt;
+  background-color: #D4EDDA;
+  color: #235a21;
+  border: 1px solid #c3e6cb;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.already-joined-msg {
+  margin: 20px 0;
+  color: #dbf1db;
+  background-color: #37753c;
+  border: 1px solid #37a741;
+  padding: 15px;
+  width:  275px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* navbar */
+#navbar img {
+  width: 70px;
+  margin: -30px 30px;
+}
+
+#navbar {
+  justify-content: space-between;
+  background-color: #FFF;
+  padding: 5px 0;
+}
+
+#navbar a {
+  font-size: 14px;
+  color:#757575;
+}
+
+#navbar a:hover {
+  font-size: 14px;
+  color:#37a741;
+}
+
+/* Search Container */
+
+#search-container {
+  background-image: url("../img/banner3.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+#search-container h1 {
+  font-family: 'Balsamiq Sans';
+  font-size: 70pt;
+  color: #ebeeeb;
+  text-shadow: 3px 3px #37a741;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+#search-container form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Events List */
+
+#events-container {
+  padding: 50px;
+}
+
+#events-container h2 {
+  margin-left: 10px;
+  font-size: 30pt;
+}
+
+#events-container .subtitle {
+  color: #757575;
+  font-size: 14pt;
+  margin-bottom: 30px;
+  margin-left: 12px;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  row-gap: 25px;
+}
+
+#cards-container p {
+  font-size: 15pt;
+}
+
+#events-container .card {
+  flex: 1 1 33%;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 0;
+  margin: .5%;
+}
+
+#events-container img {
+  height: 220px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .card-date {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #37a741;
+}
+
+.card .card-title {
+  color: #212121;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-participants {
+  font-size: 14px;
+  color: #757575;
+}
+
+/* Event Create Page */
+
+#event-create-container {
+  padding: 30px
+}
+
+#event-create-container label {
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+  font-size: 15px;
+  margin: 7px;
+}
+
+/* Event Page */
+
+#image-container,
+#info-container {
+  margin-top: 25px;
+}
+
+#image-container img {
+  border-radius: 5px;
+}
+
+#info-container h1 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#info-container {
+  margin: 25px 0;
+  font-size: 14px;
+}
+
+#description-container {
+  margin: 20px 0;
+}
+
+#info-container h3,
+#description-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-container ion-icon {
+  font-size: 15px;
+  color: #235a21;
+  margin-right: 2px;
+}
+
+#info-container, 
+#event-submit {
+  margin: 20px 0;
+}
+
+#item-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+#items-list li {
+  display: flex;
+  font-size: 14px;
+}
+
+/* Dashboard */
+
+.dashboard-title-container {
+  margin-top: 50px;
+}
+
+.dashboard-title-container h1 {
+  color: #4c9252;
+}
+
+.dashboard-events-container th{
+  width: 25%;
+}
+
+.dashboard-events-container form {
+  display: inline-block;
+}
+
+/* Edit Page */
+
+.img-preview {
+  width: 400px;
+  margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: #235a21;
+  color: #FFF;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
